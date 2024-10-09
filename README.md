@@ -4,21 +4,25 @@ This project provides a pipeline for scoring synthetic routes based on their fea
 - Anaconda or Miniconda installed on your system.
 ## Setup Instructions
 1. **Create and activate Conda environment**
+   
    Use the provided `environment.yml` to create a new Conda environment. This will install all the necessary dependencies:
    ```bash
    conda env create -f environment.yml
    conda activate aizynth-dev
    ```
-2. **Prepare Route Data**
+3. **Prepare Route Data**
+   
    Place your route dictionary in the `data/` directory. The file should be a JSON file containing the synthetic routes you want to score.
-3. **Generate Route Features**
+4. **Generate Route Features**
+   
    Use `route_feature_processing.py` to process the route dictionary and extract relevant features for scoring.
    ```bash
    python route_feature_processing.py --input_file <path_to_route_json> --output_file <path_to_features_json>
    ```
    - `<path_to_route_json>`: Path to the input JSON file containing route dictionaries.
    - `<path_to_features_json>`: Path where the processed features should be saved as a JSON file.
-4. **Predict Route Scores**
+6. **Predict Route Scores**
+   
    Once you have the route features, use the `main.py` script to predict the scores for each route.
    ```bash
    python main.py --input_file <path_to_features_json> --output_path <path_to_score_output>
