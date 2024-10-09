@@ -1,0 +1,42 @@
+uspto_unique_templates.csv.gz
+uspto_filter_model.hdf5
+uspto_keras_model.hdf5
+uspto_unique_templates.csv
+emols-stock-2023-01-01.csv
+aizynthfinder/uspto_unique_templates.csv.gz
+aizynthfinder/uspto_filter_model.hdf5
+aizynthfinder/uspto_keras_model.hdf5
+aizynthfinder/uspto_unique_templates.csv
+data/
+aizynthfinder/emols-stock-2023-01-01.csv
+route_score/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm IDE files
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Mac OS files
+.DS_Store
+
+

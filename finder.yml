@@ -1,0 +1,16 @@
+filter:
+  files:
+    uspto: uspto_filter_model.hdf5
+policy:
+  files:
+    uspto-nm:
+      - uspto_keras_model.hdf5
+      - uspto_unique_templates.csv.gz
+stock:
+  files:
+    emolecules: emols-stock-2023-01-01.csv
+properties:
+    post_processing:
+      min_routes: 10
+      max_routes: 30
+      all_routes: True
