@@ -36,9 +36,10 @@ This project provides a pipeline for scoring synthetic routes based on their fea
 - `data/`: Directory to store route data and output files.
 - `model/`: Directory containing pre-trained models for scoring.
 - `reaction_class_summ_20.csv`: Summary of reaction classes for reference.
-## Additional Files for AiZynthFinder
+## Additional Files for AiZynthFinder 
 - `emols-stock-2023-01-01.csv`: Stock file used in AiZynthFinder
 - `usp_filter_model.hdf5`, `usp_keras_model.hdf5`,`uspto_unique_templates.csv.gz`: Pre-trained models used in AiZynthFinder.
+These files and example dataset can be downloaded from https://drive.google.com/drive/folders/15inTFu800g69YNlBnxUvHDgfuvD7Lcos?usp=sharing
 ## Notes
 - Ensure your route dictionary follows the correct format (containing smiles and in_stock attributes for molecules, mapped_reaction_smiles and classification attributes for reactions) before processing with `route_feature_processing.py`.
 ## Contact
