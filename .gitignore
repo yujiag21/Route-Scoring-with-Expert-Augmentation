@@ -1,0 +1,23 @@
+# ===== Project-specific results / outputs =====
+results/
+my_results/
+
+# ===== Project-specific scripts not to upload =====
+fine_tuning/fine_tune_encoder_5_classes.py
+
+# ===== Project-specific data files / artifacts =====
+data/mixed_ground_truth_molecules_trees_with_hashes.json
+data/mixed_ground_truth_molecules_trees.json
+data/data_5_classes_step_scores.pkl
+
+# ===== Large third-party library directories =====
+aizynthfinder/
+rxnfp/
+scscore/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== Jupyter =====
+.ipynb_checkpoints/

@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "encoding_size": 256,
+  "other_feature_size_base": 4,
+  "learning_rate": 0.003,
+  "num_epochs": 300,
+  "batch_size": 64,
+  "lora_r": 12,
+  "lora_alpha": 20,
+  "num_classes": 5,
+  "device": "cuda",
+  "model_dir": "/m/cs/work/guoy8/Expert-Augmented-Interpretable-Route-Evaluation/model",
+  "save_dir": "/m/cs/work/guoy8/Expert-Augmented-Interpretable-Route-Evaluation/results/step_scores_5_bins_all_data/lowest/full_training/bs64_r12_a20_lr0.003/seed42"
+}
